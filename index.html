@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css"> <!-- optional styling -->
+</head>
+<body>
+  <h1>Interactive Web Page with JavaScript</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Part 2: Interactive Features</h2>
+    
+    <!-- Light/Dark Mode -->
+    <button id="themeToggle">Toggle Dark Mode</button>
+
+    <!-- Counter -->
+    <div>
+      <button id="increase">+</button>
+      <button id="decrease">-</button>
+      <p id="counter">0</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <label>Name:</label>
+      <input type="text" id="name"><br><br>
+
+      <label>Email:</label>
+      <input type="text" id="email"><br><br>
+
+      <label>Password:</label>
+      <input type="password" id="password"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="formMessage" style="color:red;"></p>
+  </section>
+
+  <!-- Link external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
